@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <script type="module" src="scripts/googleauth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script type="module" src="scripts/signup.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBbUgWA0r4_vI1UOoo1Kk7QntPe6Qj9lWY",
+            authDomain: "chrip-1f183.firebaseapp.com",
+            projectId: "chrip-1f183",
+            storageBucket: "chrip-1f183.appspot.com",
+            messagingSenderId: "367878854742",
+            appId: "1:367878854742:web:1665ae292281d2eb7543f7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <title>Chrip</title>
+</head>
+
+<body>
+    <header>
+        <div class="heading-items">
+            <h3><img src="https://s3-alpha-sig.figma.com/img/d45b/0d66/61dd4e26d0b72aa3c74a5eb5a5475edc?Expires=1696809600&Signature=QR399X2iC0iOfZVrJhHFxlEnTmbUmKcFhIOCBZkWWsS9CDvg-1SO315Vt7nHl8210VfkS8tWZ1NZlRG2W7JOKoVJPJvDE~pMGp4DCfcneLMv0Fikt3Rqa~1m~eiSe-D2ZxY-L9ZRAgwqQ0FJeJuflzbH6SRBiYnQS7hdn2s1zB0fE9dFl~sGwQ5BHne2vcURCp1hudLDcl8YGwrsGJJti8g0HBFczNnQjtGEjX~0jepiiAYMzpy-fB8EzuuSAUs9kJ9H7tYbMlYjF2M~YsGxFLZTc~ixfDiELMAFJS-741izIoi2j8WPCscqUAH0FB8Tn3nkzGn2FY~yvHaU467OKA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt=""><a class="homere" href="index.html">CHIRP</a></h3>
+        </div>
+    </header>
+    <section>
+        <section class="formall">
+            <div class="crh">
+                <h3>Create your account</h3>
+            </div>
+            <form class="form">
+                <input id="email" type="text" placeholder="Email"><br>
+                <input id="password" type="password" placeholder="Password" autocomplete="current-password"><br>
+                <button id="signupbtn">Sign up</button><br>
+            </form>
+            <p id="message"></p>
+            <div id="ggin" class="ggin">
+                <button id="signupbtnn"><img
+                        src="https://cdn.discordapp.com/attachments/863267323837022228/1158097168561877143/pngegg.png?ex=651b0189&is=6519b009&hm=2251db88f2dce5f3ba0e6215bf3f758677e63c0f1d1d05468055e455104209d2&"
+                        alt="">Sign up with google</button>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>

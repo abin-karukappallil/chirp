@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrip</title>
+    <link rel="stylesheet" href="styles/chat.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <script type="module" src="scripts/chat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <!-- Add other Firebase services if you use them -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="heading-items">
+            <h3><img src="https://s3-alpha-sig.figma.com/img/d45b/0d66/61dd4e26d0b72aa3c74a5eb5a5475edc?Expires=1696809600&Signature=QR399X2iC0iOfZVrJhHFxlEnTmbUmKcFhIOCBZkWWsS9CDvg-1SO315Vt7nHl8210VfkS8tWZ1NZlRG2W7JOKoVJPJvDE~pMGp4DCfcneLMv0Fikt3Rqa~1m~eiSe-D2ZxY-L9ZRAgwqQ0FJeJuflzbH6SRBiYnQS7hdn2s1zB0fE9dFl~sGwQ5BHne2vcURCp1hudLDcl8YGwrsGJJti8g0HBFczNnQjtGEjX~0jepiiAYMzpy-fB8EzuuSAUs9kJ9H7tYbMlYjF2M~YsGxFLZTc~ixfDiELMAFJS-741izIoi2j8WPCscqUAH0FB8Tn3nkzGn2FY~yvHaU467OKA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt=""><a class="homere" href="index.html">CHIRP</a></h3>
+        </div>
+    </header>
+    <section>
+        <div class="form">
+            <div class="msg-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="112" height="78" viewBox="0 0 112 78" fill="none">
+                    <path d="M111.046 0.452592L30.6101 77.0124L4.43454e-07 0.107176L111.046 0.452592Z" fill="white"/>
+                    </svg>
+            <p class="usr">UserName</p>
+            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus quasi atque consectetur doloribus impedit, tenetur laborum reiciendis ratione ad eum. Numquam, totam amet sequi modi non harum quaerat eveniet.</p>
+         </div>
+         <form class="input-box">
+            <input id="msg-input" type="text" placeholder="your message" id="">
+            <button id="send-button"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 35 33" fill="none">
+                <path d="M33.9416 14.8395L2.62802 0.174454C2.3127 0.0267955 1.96177 -0.028817 1.61596 0.0140745C1.27016 0.0569661 0.943674 0.196602 0.674422 0.416767C0.405169 0.636932 0.204196 0.928592 0.0948401 1.25788C-0.0145161 1.58717 -0.0277689 1.94058 0.0566212 2.27706L2.2891 11.1659L16.5791 16.4985L2.2891 21.8311L0.0566212 30.72C-0.0293567 31.0567 -0.01721 31.4108 0.0916404 31.741C0.200491 32.0711 0.401544 32.3635 0.671282 32.5841C0.941021 32.8046 1.26829 32.9442 1.61481 32.9864C1.96133 33.0287 2.31277 32.9718 2.62802 32.8226L33.9416 18.1575C34.2581 18.0095 34.5256 17.7748 34.7131 17.4811C34.9005 17.1873 35 16.8465 35 16.4985C35 16.1505 34.9005 15.8097 34.7131 15.516C34.5256 15.2222 34.2581 14.9876 33.9416 14.8395Z" fill="black"/>
+              </svg></button>
+         </form>
+        </div>
+    </section>
+</body>
+</html>

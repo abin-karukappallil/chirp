@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/phetsarath');
+
+* {
+    font-family: 'Phetsarath', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+@media (max-width: 1231px) {
+    body {
+        background-image: url('https://cdn.discordapp.com/attachments/863267323837022228/1158062446653747281/image.png?ex=651ae133&is=65198fb3&hm=64dfc6bfc65186238cd5b8c783c70ae3d8c340b3e26a5bc3baadcb5496088a86&');
+        background-size: cover;
+        height: 120vh; 
+    }
+    header {
+        font-size: 12px;
+    }
+    header h3 {
+        font-size: 24px; 
+    }}
+    .homere {
+        text-decoration: none;
+        color: white;
+    }

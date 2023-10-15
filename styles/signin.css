@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: url('https://cdn.discordapp.com/attachments/863267323837022228/1158060581455143052/bg.png?ex=651adf76&is=65198df6&hm=cb83385714c9fcdffa75cf66c143333bf3ca9a64a5c10c89f882cbaf21a5020f&');
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+}
+@media (max-width: 1231px) {
+    body {
+        background-image: url('https://cdn.discordapp.com/attachments/863267323837022228/1158062446653747281/image.png?ex=651ae133&is=65198fb3&hm=64dfc6bfc65186238cd5b8c783c70ae3d8c340b3e26a5bc3baadcb5496088a86&');
+        background-size: cover;
+        height: 120vh; 
+    }
+    header {
+        font-size: 12px;
+    }
+    header h3 {
+        font-size: 24px; 
+    }}
+
+header {
+    margin: 20px;
+}
+
+header img {
+    width: 37px;
+    height: 29px;
+}
+
+header h3 {
+    color: #FFF;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.8px;
+    position: relative;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+section .formall {
+    margin-top: 259px;
+}
+
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 328px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    box-shadow: 0px 4px 4px 0px #000 inset;
+
+}
+
+.form button {
+
+    border-radius: 100px;
+    background: #D00;
+    width: 120px;
+    height: 37px;
+    border: none;
+    cursor: pointer;
+}
+
+.ggin {
+    position: relative;
+}
+
+.ggin button {
+    width: 290px;
+    height: 44.713px;
+    fill: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 0px 0px 1px #000;
+    cursor: pointer;
+}
+
+button img {
+    width: 32px;
+    height: 33px;
+    top: 6px;
+    right: 224px;
+    position: absolute;
+
+}
+
+.crh {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+.pa {
+    text-decoration: none;
+    color: white;
+}
